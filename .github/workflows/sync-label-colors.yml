@@ -1,9 +1,7 @@
 name: Synchronize label colors
 
 on:
-  label:
-    types: 
-      - created
+  workflow_dispatch:
 
 jobs:
   call-reusable-flow:

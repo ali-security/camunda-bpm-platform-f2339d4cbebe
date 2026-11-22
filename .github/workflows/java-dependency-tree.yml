@@ -1,8 +1,7 @@
 name: Java Dependency Tree Diff
 
 on:
-  pull_request:
-    types: [ labeled ]
+  workflow_dispatch:
 
 jobs:
     build:
